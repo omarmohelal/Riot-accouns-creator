@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+backend/.venv/
+backend/venv/
+
+# Node
+node_modules/
+frontend/node_modules/
+
+# Build output
+frontend/dist/
+backend/api/dist/
+backend/api/static/
+
+# Runtime data and secrets
+backend/data/
+data/
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+*.log
+.secret.key
+.env
+.env.*
+!.env.example
+CURRENT_URL.txt
+
+# Local / generated files
+*.backup
+*.bak
+*.tmp
+*.cache
+coverage/
+htmlcov/
+
+# Test and scratch data
+/test_*.py
+/test-*.html
+/test_*.json
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

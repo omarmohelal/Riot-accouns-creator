@@ -68,7 +68,7 @@ Frontend:
 
 ```bash
 cd frontend
-npm ci
+npm install
 npm run dev
 ```
 
